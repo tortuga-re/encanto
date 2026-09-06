@@ -1,0 +1,12 @@
+Date;Level;Message
+"2025-05-28 20:25:36";NOTICE;"Plugin activated: nitropack/main.php"
+"2025-05-28 20:26:09";NOTICE;"Plugin added: flying-pages"
+"2025-05-28 20:26:19";NOTICE;"Plugin activated: flying-pages/flying-pages.php"
+"2025-05-28 20:27:11";NOTICE;"Plugin added: sg-security"
+"2025-05-28 20:27:43";NOTICE;"Plugin added: shortpixel-image-optimiser"
+"2025-05-28 20:27:55";NOTICE;"Plugin deactivated: sucuri-scanner/sucuri.php"
+"2025-05-28 20:28:00";NOTICE;"Plugin activated: shortpixel-image-optimiser/wp-shortpixel.php"
+"2025-05-28 20:30:38";NOTICE;"Plugin activated: sg-security/sg-security.php"
+"2025-05-28 20:36:23";NOTICE;"Post deleted: 11"
+"2025-05-28 20:36:25";NOTICE;"Theme switched to: The7"
+"2025-05-28 20:41:43";NOTICE;"Plugin deactivated: nitropack/main.php"
