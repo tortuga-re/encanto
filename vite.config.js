@@ -12,6 +12,7 @@ export default defineConfig({
         compleanni: resolve(__dirname, 'compleanni-18esimi/index.html'),
         cerimonie: resolve(__dirname, 'cerimonie/index.html'),
         genderReveal: resolve(__dirname, 'gender-reveal/index.html'),
+        anniversari: resolve(__dirname, 'anniversari/index.html'),
         portfolio: resolve(__dirname, 'portfolio/index.html'),
         casiStudio: resolve(__dirname, 'casi-studio/index.html'),
         chiSiamo: resolve(__dirname, 'chi-siamo/index.html'),

@@ -52,7 +52,7 @@ export const SERVICES = [
     excerpt: 'Nozze d\'argento, d\'oro o ricorrenze speciali: celebriamo il vostro percorso con una scenografia su misura che unisce ricordi, romanticismo e classe.',
     image: '/wp-content/uploads/2025/05/anniversari.png',
     hoverImage: '/wp-content/uploads/2025/05/anniversari-hover.jpg',
-    url: '/servizi/'
+    url: '/anniversari/'
   }
 ];
 
@@ -589,7 +589,7 @@ function renderMatrimoniPage() {
     <div class="container hero-content">
       <div class="urgency-badge">
         <span class="pulse-dot"></span>
-        <span>Wedding Haute Scénographie &bull; Reggio Emilia</span>
+        <span>Wedding Haute Scénographie &bull; Reggio Emilia & Emilia-Romagna</span>
       </div>
       <h1 class="hero-title">
         Allestimenti Matrimoni di Lusso a <span class="gold-gradient-text">Reggio Emilia</span>
@@ -613,16 +613,78 @@ function renderMatrimoniPage() {
             Un Matrimonio Firmato Encanto Non Si Dimentica. Si Racconta per Generazioni.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
-            Un matrimonio di alto profilo non tollera improvvisazioni o dettagli pre-fabbricati. A Reggio Emilia e nelle colline matildiche, Encanto Design firma allestimenti dove l'imponenza delle strutture dorate si unisce alla delicatezza di fioriture maestose e giochi di candele d'epoca.
+            Un matrimonio di alto profilo nelle colline matildiche, in ville d'epoca o castelli seicenteschi richiede una visione d'insieme impeccabile. Encanto Design progetta allestimenti dove l'imponenza delle strutture dorate dialoga armoniosamente con la delicatezza di fioriture maestose e candelabri d'epoca sospesi.
           </p>
-          <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 30px;">
-            Dall'ingresso trionfale della sposa ai tavoli imperiali con candelieri sospesi in cristallo: ogni ospite vivrà l'emozione di trovarsi all'interno di una favola reale.
+          <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 25px;">
+            Rifiutiamo formule pre-confezionate: ogni elemento scenografico viene studiato metricamente per valorizzare l'architettura della location e rispecchiare il gusto estetico degli sposi.
           </p>
         </div>
         <div>
-          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-1.jpg" alt="Allestimento Matrimonio di Lusso Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold);" />
+          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-1.jpg" alt="Allestimento Matrimonio di Lusso Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
         </div>
       </div>
+
+      <!-- COSA COMPRENDE L'ALLESTIMENTO -->
+      <div style="margin-bottom: 80px;">
+        <div style="text-align: center; max-width: 750px; margin: 0 auto 45px;">
+          <span class="service-badge">Architettura del Ricevimento</span>
+          <h2 style="font-size: 2.2rem; color: #FFF;">Cosa Comprende il Progetto Scenografico</h2>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">1. Ingresso Trionfale & Cerimonia</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Portali e archi scultorei autoportanti, corsie d'onore con lanterne dorate e dettagli floreali d'ingresso che introducono gli ospiti nel vostro mondo.
+            </p>
+          </div>
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">2. Table Design Imperiali</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Tavoli imperiali con runner floreali continui, candelabri in cristallo o metallo satinato sospesi e mise en place personalizzata nei minimi dettagli.
+            </p>
+          </div>
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">3. Illuminotecnica d'Atmosfera</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Cascate di punti luce a LED a tono caldo, fari architetturali sulle facciate storiche e cieli stellati luminosi per il taglio della torta.
+            </p>
+          </div>
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">4. Photocall & Lounge Area</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Corner dedicati alle foto ricordo con quinte personalizzate, lettere monogramma luminose e arredi coordinati per i momenti di relax degli ospiti.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- IL METODO ATELIER -->
+      <div class="luxury-card" style="padding: 45px; margin-bottom: 80px;">
+        <h3 style="font-size: 1.8rem; color: #FFF; margin-bottom: 25px; text-align: center;">Il Metodo Atelier in 4 Fasi</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px;">
+          <div>
+            <span style="font-family: var(--font-title); color: var(--gold-start); font-size: 1.6rem; font-weight: 700;">01</span>
+            <h4 style="color: #FFF; margin: 8px 0;">Sopralluogo Tecnico</h4>
+            <p style="color: var(--text-muted); font-size: 0.88rem; line-height: 1.6;">Rilievo metrico della location, analisi dell'illuminazione e studio dei flussi degli ospiti.</p>
+          </div>
+          <div>
+            <span style="font-family: var(--font-title); color: var(--gold-start); font-size: 1.6rem; font-weight: 700;">02</span>
+            <h4 style="color: #FFF; margin: 8px 0;">Bozza Progettuale</h4>
+            <p style="color: var(--text-muted); font-size: 0.88rem; line-height: 1.6;">Definizione delle palette cromatiche, dei rendering 3D preliminari e dei materiali d'arredo.</p>
+          </div>
+          <div>
+            <span style="font-family: var(--font-title); color: var(--gold-start); font-size: 1.6rem; font-weight: 700;">03</span>
+            <h4 style="color: #FFF; margin: 8px 0;">Produzione Proprietaria</h4>
+            <p style="color: var(--text-muted); font-size: 0.88rem; line-height: 1.6;">Preparazione delle strutture in metallo, selezione dei tessuti d'eccellenza e dei dettagli floreali.</p>
+          </div>
+          <div>
+            <span style="font-family: var(--font-title); color: var(--gold-start); font-size: 1.6rem; font-weight: 700;">04</span>
+            <h4 style="color: #FFF; margin: 8px 0;">Direzione in Loco</h4>
+            <p style="color: var(--text-muted); font-size: 0.88rem; line-height: 1.6;">Montaggio millimetrico con la nostra direzione artistica sul posto fino al discreto smontaggio.</p>
+          </div>
+        </div>
+      </div>
+
       ${renderScarcityBanner()}
     </div>
   </section>
@@ -664,13 +726,45 @@ function renderAziendaliPage() {
             Il Brand Prende Vita Attraverso un'Eleganza Monumentale.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
-            Convention internazionali, cene di gala con stakeholder, celebrazioni di anniversari aziendali: non c'è spazio per errori. Gestiamo location fino a 500+ invitati garantendo un rigore logistico e un'armonia stilistica totale.
+            Convention internazionali, cene di gala con stakeholder, celebrazioni di anniversari industriali e lanci di prodotto ad alta riservatezza: Encanto Design è il partner fidato delle direzioni corporate in Emilia-Romagna.
+          </p>
+          <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 25px;">
+            Forniamo strutture scenografiche proprietarie, branding architettonico elegante e allestimenti per sale fino a 500+ ospiti con coordinamento logistico di assoluto rigore.
           </p>
         </div>
         <div>
-          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-15.jpeg" alt="Gala Dinner Aziendale Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold);" />
+          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-15.jpeg" alt="Gala Dinner Aziendale Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
         </div>
       </div>
+
+      <!-- DETTAGLI PROGETTI CORPORATE -->
+      <div style="margin-bottom: 80px;">
+        <div style="text-align: center; max-width: 750px; margin: 0 auto 45px;">
+          <span class="service-badge">Soluzioni Corporate</span>
+          <h2 style="font-size: 2.2rem; color: #FFF;">Elementi Scenografici per l'Azienda</h2>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">Branding Architettonico</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Integrazione discreta ed elegante del logo aziendale su quinte specchiate, pannelli geometrici e installazioni luminose.
+            </p>
+          </div>
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">Gala Dinner & Tavoli Stakeholder</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Centrotavola maestosi a profilo snello per favorire la conversazione, con illuminazione calibrata per riprese foto e video.
+            </p>
+          </div>
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">Palchi & Fondali Convention</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Allestimento di quinte per i relatori, podi customizzati ed effetti scenici a supporto di presentazioni istituzionali.
+            </p>
+          </div>
+        </div>
+      </div>
+
       ${renderScarcityBanner()}
     </div>
   </section>
@@ -705,20 +799,52 @@ function renderCompleanniPage() {
 
   <section class="section">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 70px;">
         <div>
-          <span class="service-badge">Impatto Social & Reale</span>
+          <span class="service-badge">Impatto Visivo & Reale</span>
           <h2 style="font-size: 2.4rem; margin-bottom: 20px;">
             Il Tuo 18° Sarà l'Evento di Cui Parleranno Tutti.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
             Dimentica le solite sale anonime. Realizziamo installazioni scenografiche ad alto impatto: archi a doppia curvatura, sequenze di sfere calibrate al millimetro, insegne al neon personalizzate e angoli cocktail dal design sofisticato.
           </p>
+          <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 25px;">
+            Dai diciottesimi in ville con parco ai quarantesimi e cinquantesimi glam: curiamo scenografie fotografiche pensate per stupire ogni invitato dal primo sguardo.
+          </p>
         </div>
         <div>
-          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-5.jpeg" alt="Allestimento 18esimo Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold);" />
+          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-5.jpeg" alt="Allestimento 18esimo Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
         </div>
       </div>
+
+      <!-- COMPONENTI 18ESIMO -->
+      <div style="margin-bottom: 80px;">
+        <div style="text-align: center; max-width: 750px; margin: 0 auto 45px;">
+          <span class="service-badge">Esperienza Immersiva</span>
+          <h2 style="font-size: 2.2rem; color: #FFF;">Cosa Include il Progetto Compleanno</h2>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">Photocall Monumentale</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Quinta centrale con cifre giganti luminose a LED, archi organici a specchio o oro opaco per scatti iconici.
+            </p>
+          </div>
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">Tunnel d'Ingresso Sensoriale</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Un percorso d'ingresso guidato da luci soffuse e installazioni aeree che proiettano gli ospiti nel clima del party.
+            </p>
+          </div>
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">Sweet Table & Cut Cake</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Allestimento del tavolo torta con alzate in cristallo, luci d'accento e scenografie d'impatto per il momento clou.
+            </p>
+          </div>
+        </div>
+      </div>
+
       ${renderScarcityBanner()}
     </div>
   </section>
@@ -752,20 +878,24 @@ function renderCerimoniePage() {
 
   <section class="section">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 70px;">
         <div>
           <span class="service-badge">Delicatezza Sartoriale</span>
           <h2 style="font-size: 2.4rem; margin-bottom: 20px;">
             Una Scenografia Eterea per i Momenti Più Puri della Vostra Famiglia.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
-            Accogliere i propri affetti per il battesimo o la comunione di un figlio significa donare loro una giornata speciale. I nostri fondali con incisioni personalizzate, gli sweet table d'alta pasticceria e le decorazioni floreali trasformano il pranzo in una favola memorabile.
+            Accogliere i propri affetti per il battesimo o la prima comunione di un figlio significa donare loro un ricordo indelebile. I nostri fondali con incisioni cromatiche personalizzate, gli sweet table coordinati e le fioriture eteree trasformano la giornata in una festa di sobria raffinatezza.
+          </p>
+          <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 25px;">
+            Curiamo ogni dettaglio in linea con le richieste della famiglia: palette pastello, dettagli dorati satinati e tavoli dedicati alle bomboniere d'autore.
           </p>
         </div>
         <div>
-          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-2.jpeg" alt="Battesimo e Comunione Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold);" />
+          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-2.jpeg" alt="Battesimo e Comunione Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
         </div>
       </div>
+
       ${renderScarcityBanner()}
     </div>
   </section>
@@ -799,20 +929,104 @@ function renderGenderRevealPage() {
 
   <section class="section">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 70px;">
         <div>
           <span class="service-badge">La Dolce Attesa</span>
           <h2 style="font-size: 2.4rem; margin-bottom: 20px;">
             Colori, Emozioni e Scenografie da Sogno.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
-            Un evento di design pensato per celebrare il mistero e la rivelazione più attesa: strutture ad arco monumentali, dettagli in oro e sfumature pastello di altissimo pregio.
+            Un evento di design pensato per celebrare la rivelazione più attesa: strutture ad arco monumentali, sfumature pastello di altissimo pregio e allestimenti visivi per la diretta scoperta del sesso del bambino.
+          </p>
+          <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 25px;">
+            Dai palloni scultorei ai fondali trasparenti con scritte dorate: creiamo una cornice magica ed emozionante sia dal vivo che negli scatti fotografici.
           </p>
         </div>
         <div>
-          <img src="/wp-content/uploads/2025/05/gender-reveal-hover.jpg" alt="Gender Reveal Party Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold);" />
+          <img src="/wp-content/uploads/2025/05/gender-reveal-hover.jpg" alt="Gender Reveal Party Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
         </div>
       </div>
+
+      ${renderScarcityBanner()}
+    </div>
+  </section>
+
+  ${renderFooter()}
+  `;
+}
+
+function renderAnniversariPage() {
+  return `
+  ${renderHeader('servizi')}
+
+  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/anniversari.png');">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="urgency-badge">
+        <span class="pulse-dot"></span>
+        <span>Ricorrenze d'Autore &bull; Reggio Emilia & Emilia-Romagna</span>
+      </div>
+      <h1 class="hero-title">
+        Allestimenti Anniversari & <span class="gold-gradient-text">Feste Private</span>
+      </h1>
+      <p class="hero-tagline">
+        Ancora una volta, con rinnovata meraviglia. Celebriamo il vostro percorso di vita.
+      </p>
+      <div class="hero-actions">
+        <a href="/contatti/" class="btn-gold">Verifica Disponibilità Data</a>
+        <a href="https://wa.me/393917125593?text=Salve%2C%20vorrei%20informazioni%20per%20un%20anniversario%20esclusivo." class="btn-outline-gold btn-whatsapp">WhatsApp Riservato</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 70px;">
+        <div>
+          <span class="service-badge">Romanticismo & Classe</span>
+          <h2 style="font-size: 2.4rem; margin-bottom: 20px;">
+            Nozze d'Argento, d'Oro e Traguardi di Famiglia.
+          </h2>
+          <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
+            Festeggiare 25 o 50 anni di matrimonio, o una ricorrenza familiare importante, richiede un'atmosfera calda, elegante e ricca di valore affettivo. Encanto Design progetta allestimenti che rievocano la bellezza del giorno delle nozze arricchendola di fascino contemporaneo.
+          </p>
+          <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 25px;">
+            Dalle cene intime nei giardini privati alle grandi feste in dimore storiche: ogni dettaglio stilistico viene calibrato sulla storia e sui desideri dei festeggiati.
+          </p>
+        </div>
+        <div>
+          <img src="/wp-content/uploads/2025/05/anniversari-hover.jpg" alt="Allestimento Anniversari Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
+        </div>
+      </div>
+
+      <!-- ELEMENTI ANNIVERSARIO -->
+      <div style="margin-bottom: 80px;">
+        <div style="text-align: center; max-width: 750px; margin: 0 auto 45px;">
+          <span class="service-badge">Dettagli di Prestigio</span>
+          <h2 style="font-size: 2.2rem; color: #FFF;">Elementi Scenografici per l'Anniversario</h2>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">Silver & Gold Theme</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Palette cromatiche dedicate per le Nozze d'Argento (argento satinato e bianco etereo) e Nozze d'Oro (oro satinato caldo).
+            </p>
+          </div>
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">Galleria Ricordi & Photocall</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Quinte fotografiche strutturate per accogliere immagini di vita insieme e creare una cornice per gli scatti con figli e nipoti.
+            </p>
+          </div>
+          <div class="luxury-card" style="padding: 30px;">
+            <h3 style="color: var(--gold-start); font-size: 1.3rem; margin-bottom: 12px;">Tavolo d'Onore & Mise en Place</h3>
+            <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">
+              Mise en place d'alta gamma con candelieri d'epoca, fiori scelti e illuminazione romantica a lume di candela.
+            </p>
+          </div>
+        </div>
+      </div>
+
       ${renderScarcityBanner()}
     </div>
   </section>
@@ -1135,6 +1349,9 @@ document.addEventListener('DOMContentLoaded', () => {
       break;
     case 'gender-reveal':
       htmlContent = renderGenderRevealPage();
+      break;
+    case 'anniversari':
+      htmlContent = renderAnniversariPage();
       break;
     case 'servizi':
       htmlContent = renderServiziPage();
