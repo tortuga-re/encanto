@@ -355,7 +355,50 @@ nav.main-nav a:hover::after, nav.main-nav a.active::after {
   z-index: 2;
   text-align: center;
   max-width: 900px;
-  margin-top: 50px; /* Ensures content stays below fixed header */
+  margin-top: 40px; /* Ensures content stays below fixed header */
+}
+
+/* Home Page Hero Fine-Tuning */
+.home-hero {
+  padding-top: 110px;
+  padding-bottom: 25px;
+}
+
+.home-hero .hero-content {
+  margin-top: 55px;
+}
+
+.home-hero .hero-title {
+  font-size: clamp(2rem, 4.2vw, 3.4rem);
+  margin-bottom: 14px;
+}
+
+.home-hero .hero-tagline {
+  font-size: clamp(0.98rem, 1.8vw, 1.25rem);
+  margin-bottom: 16px;
+}
+
+.home-hero .hero-desc {
+  font-size: 0.95rem;
+  margin: 0 auto 24px;
+  line-height: 1.65;
+}
+
+.home-hero .hero-actions {
+  margin-bottom: 25px;
+}
+
+.home-hero .hero-stats {
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .home-hero {
+    padding-top: 90px;
+  }
+  .home-hero .hero-content {
+    margin-top: 35px;
+  }
 }
 
 .hero-title {

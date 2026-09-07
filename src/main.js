@@ -253,7 +253,7 @@ function renderHomePage() {
   ${renderHeader('home')}
 
   <!-- HERO SECTION -->
-  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/bg-encanto.png');">
+  <section class="hero-section home-hero" style="background-image: url('/wp-content/uploads/2025/05/bg-encanto.png');">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <div class="urgency-badge">
