@@ -132,7 +132,7 @@ function renderHeader(activePage) {
       <a href="/" class="brand-logo">
         <img src="/wp-content/uploads/2025/05/logo-encanto-150x150.png" alt="Encanto Design Logo" />
         <div>
-          <span class="brand-title">ENCANTO DESIGN</span>
+          <span class="brand-title">ENCANTO</span>
           <span class="brand-subtitle">Haute Scénographie<br />& Luxury Decor</span>
         </div>
       </a>
