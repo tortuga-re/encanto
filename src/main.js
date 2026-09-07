@@ -606,10 +606,10 @@ function renderMatrimoniPage() {
 
   <section class="section">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 70px;">
+      <div class="split-section">
         <div>
           <span class="service-badge">Sartorialità Senza Compromessi</span>
-          <h2 style="font-size: 2.4rem; margin-bottom: 20px;">
+          <h2>
             Un Matrimonio Firmato Encanto Non Si Dimentica. Si Racconta per Generazioni.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
@@ -620,7 +620,7 @@ function renderMatrimoniPage() {
           </p>
         </div>
         <div>
-          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-1.jpg" alt="Allestimento Matrimonio di Lusso Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
+          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-1.jpg" alt="Allestimento Matrimonio di Lusso Reggio Emilia" />
         </div>
       </div>
 
@@ -719,10 +719,10 @@ function renderAziendaliPage() {
 
   <section class="section">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 70px;">
+      <div class="split-section">
         <div>
           <span class="service-badge">Leadership & Potenza Scenica</span>
-          <h2 style="font-size: 2.4rem; margin-bottom: 20px;">
+          <h2>
             Il Brand Prende Vita Attraverso un'Eleganza Monumentale.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
@@ -733,7 +733,7 @@ function renderAziendaliPage() {
           </p>
         </div>
         <div>
-          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-15.jpeg" alt="Gala Dinner Aziendale Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
+          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-15.jpeg" alt="Gala Dinner Aziendale Reggio Emilia" />
         </div>
       </div>
 
@@ -799,10 +799,10 @@ function renderCompleanniPage() {
 
   <section class="section">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 70px;">
+      <div class="split-section">
         <div>
           <span class="service-badge">Impatto Visivo & Reale</span>
-          <h2 style="font-size: 2.4rem; margin-bottom: 20px;">
+          <h2>
             Il Tuo 18° Sarà l'Evento di Cui Parleranno Tutti.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
@@ -813,7 +813,7 @@ function renderCompleanniPage() {
           </p>
         </div>
         <div>
-          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-5.jpeg" alt="Allestimento 18esimo Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
+          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-5.jpeg" alt="Allestimento 18esimo Reggio Emilia" />
         </div>
       </div>
 
@@ -878,10 +878,10 @@ function renderCerimoniePage() {
 
   <section class="section">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 70px;">
+      <div class="split-section">
         <div>
           <span class="service-badge">Delicatezza Sartoriale</span>
-          <h2 style="font-size: 2.4rem; margin-bottom: 20px;">
+          <h2>
             Una Scenografia Eterea per i Momenti Più Puri della Vostra Famiglia.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
@@ -892,7 +892,7 @@ function renderCerimoniePage() {
           </p>
         </div>
         <div>
-          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-2.jpeg" alt="Battesimo e Comunione Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
+          <img src="/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-2.jpeg" alt="Battesimo e Comunione Reggio Emilia" />
         </div>
       </div>
 
@@ -929,10 +929,10 @@ function renderGenderRevealPage() {
 
   <section class="section">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 70px;">
+      <div class="split-section">
         <div>
           <span class="service-badge">La Dolce Attesa</span>
-          <h2 style="font-size: 2.4rem; margin-bottom: 20px;">
+          <h2>
             Colori, Emozioni e Scenografie da Sogno.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
@@ -943,7 +943,7 @@ function renderGenderRevealPage() {
           </p>
         </div>
         <div>
-          <img src="/wp-content/uploads/2025/05/gender-reveal-hover.jpg" alt="Gender Reveal Party Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
+          <img src="/wp-content/uploads/2025/05/gender-reveal-hover.jpg" alt="Gender Reveal Party Reggio Emilia" />
         </div>
       </div>
 
@@ -981,10 +981,10 @@ function renderAnniversariPage() {
 
   <section class="section">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 70px;">
+      <div class="split-section">
         <div>
           <span class="service-badge">Romanticismo & Classe</span>
-          <h2 style="font-size: 2.4rem; margin-bottom: 20px;">
+          <h2>
             Nozze d'Argento, d'Oro e Traguardi di Famiglia.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
@@ -995,7 +995,7 @@ function renderAnniversariPage() {
           </p>
         </div>
         <div>
-          <img src="/wp-content/uploads/2025/05/anniversari-hover.jpg" alt="Allestimento Anniversari Reggio Emilia" style="width: 100%; border-radius: 12px; border: 1px solid var(--border-gold); box-shadow: 0 20px 40px rgba(0,0,0,0.6);" />
+          <img src="/wp-content/uploads/2025/05/anniversari-hover.jpg" alt="Allestimento Anniversari Reggio Emilia" />
         </div>
       </div>
 
