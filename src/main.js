@@ -63,7 +63,7 @@ export const GALLERY_ITEMS = [
   { src: '/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-13.jpeg', title: 'Scenografia Ricevimento Matrimoniale', cat: 'Matrimoni' },
   { src: '/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-12.jpeg', title: 'Decorazione Sala Storica d\'Epoca', cat: 'Dimore Storiche' },
   { src: '/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-10.jpeg', title: 'Composizione Floreale e Archi Monumentali', cat: 'Eventi Privati' },
-  { src: '/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-9.jpeg', title: 'Scenografia a Bordo Piscina al Tramonto', cat: 'VIP Event' },
+  { src: '/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-9.jpeg', title: 'Scenografia a Bordo Piscina al Tramonto', cat: 'Evento Riservato' },
   { src: '/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-8.jpeg', title: 'Bomboniere e Table Gift Luxury', cat: 'Dettagli' },
   { src: '/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-7.jpeg', title: 'Arco Personalizzato Strutturale', cat: 'Compleanni' },
   { src: '/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-6.jpeg', title: 'Allestimento Diciottesimo Glamour Oro e Rosa', cat: '18esimi' },
@@ -109,7 +109,7 @@ export const CASE_STUDIES = [
   },
   {
     title: '18esimo Royal Black & Gold Experience',
-    client: 'Festa di Diciottesimo VIP',
+    client: 'Festa Privata Selezionata',
     location: 'Villa Privata con Parco, Scandiano (RE)',
     highlight: 'Tunnel d\'ingresso sensoriale e photocall scultoreo a doppia arcata',
     description: 'Palette nero opaco, oro satinato e finiture a specchio. Un photocall centrale monumentale con lettere luminose e centinaia di sfere organiche calibrate millimetricamente ha reso l\'evento memorabile per tutti gli invitati.',
@@ -132,8 +132,8 @@ function renderHeader(activePage) {
       <a href="/" class="brand-logo">
         <img src="/wp-content/uploads/2025/05/logo-encanto-150x150.png" alt="Encanto Design Logo" />
         <div>
-          <span class="brand-title">ENCANTO</span>
-          <span class="brand-subtitle">Haute Scénographie</span>
+          <span class="brand-title">ENCANTO DESIGN</span>
+          <span class="brand-subtitle">Haute Scénographie<br />& Luxury Decor</span>
         </div>
       </a>
       
@@ -148,7 +148,7 @@ function renderHeader(activePage) {
 
       <div class="header-cta">
         <a href="https://wa.me/393917125593?text=Salve%2C%20vorrei%20candidare%20il%20mio%20evento%20con%20Encanto%20Design." target="_blank" rel="noopener" class="btn-gold" style="padding: 10px 20px; font-size: 0.78rem;">
-          WhatsApp VIP
+          WhatsApp Riservato
         </a>
       </div>
 
@@ -187,7 +187,7 @@ function renderFooter() {
           <ul class="footer-links">
             <li><a href="/matrimoni/">Matrimoni di Prestigio</a></li>
             <li><a href="/eventi-aziendali/">Gala Dinner & Corporate</a></li>
-            <li><a href="/compleanni-18esimi/">18esimi & Compleanni VIP</a></li>
+            <li><a href="/compleanni-18esimi/">18esimi & Compleanni Esclusivi</a></li>
             <li><a href="/cerimonie/">Battesimi & Comunioni</a></li>
             <li><a href="/gender-reveal/">Luxury Gender Reveal</a></li>
             <li><a href="/servizi/">Tutti i Servizi</a></li>
@@ -232,7 +232,7 @@ function renderScarcityBanner() {
         <span>Criterio di Ammissione & Massimo 4 Eventi al Mese</span>
       </div>
       <h3 style="font-size: clamp(1.4rem, 2.5vw, 2.2rem); margin-bottom: 15px; color: #FFF;">
-        Non allestiamo per chiunque. Diamo vita a capolavori per pochissimi eletti.
+        Allestimenti sartoriali per un numero limitato di progetti selezionati.
       </h3>
       <p style="color: var(--text-muted); max-width: 780px; margin: 0 auto 28px; font-size: 0.98rem; line-height: 1.8;">
         Dopo anni dedicati unicamente a grandi produzioni aziendali e dimore private esclusive, il nostro atelier riserva ora pochissime date all'anno al pubblico privato. Ogni evento è affidato alla supervisione esclusiva di un unico team dedicato. L'accesso ai nostri servizi avviene esclusivamente previa approvazione della candidatura.
@@ -519,11 +519,72 @@ function renderHomePage() {
   `;
 }
 
+function renderServiziPage() {
+  return `
+  ${renderHeader('servizi')}
+
+  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/bg-encanto-design.png');">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="urgency-badge">
+        <span class="pulse-dot"></span>
+        <span>Collezioni Scenografiche &bull; Reggio Emilia & Emilia-Romagna</span>
+      </div>
+      <h1 class="hero-title">
+        Esperienze & <span class="gold-gradient-text">Servizi di Haute Scénographie</span>
+      </h1>
+      <p class="hero-tagline">
+        Dalle grandi produzioni corporate ai ricevimenti privati più intimi ed esclusivi.
+      </p>
+      <p class="hero-desc">
+        Progettazione architettonica integrata, floral design monumentale e illuminotecnica d'atmosfera. Ogni servizio è calibrato sulle caratteristiche della location e sulla personalità degli ospiti.
+      </p>
+      <div class="hero-actions">
+        <a href="/contatti/" class="btn-gold">Presenta la Tua Candidatura</a>
+        <a href="https://wa.me/393917125593" target="_blank" class="btn-outline-gold btn-whatsapp">WhatsApp Riservato</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="servizi-lista">
+    <div class="container">
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 50px;">
+        <span class="service-badge">Catalogo Scenografie</span>
+        <h2 style="font-size: clamp(2rem, 3.5vw, 2.8rem); margin-bottom: 16px;">
+          Le Nostre Collezioni d'Autore
+        </h2>
+        <p style="color: var(--text-muted); font-size: 1rem;">
+          Seleziona la tipologia di evento per scoprire la nostra proposta sartoriale.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        ${SERVICES.map(s => `
+          <div class="service-card" style="background-image: url('${s.image}');" onclick="window.location.href='${s.url}'">
+            <div class="service-card-overlay">
+              <span class="service-badge">${s.subtitle}</span>
+              <h3>${s.title}</h3>
+              <p class="service-excerpt">${s.excerpt}</p>
+              <a href="${s.url}" class="service-link">
+                Esplora il Servizio &rarr;
+              </a>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  </section>
+
+  ${renderScarcityBanner()}
+  ${renderFooter()}
+  `;
+}
+
 function renderMatrimoniPage() {
   return `
   ${renderHeader('servizi')}
 
-  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/matrimoni.png'); min-height: 65vh;">
+  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/matrimoni.png');">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <div class="urgency-badge">
@@ -574,7 +635,7 @@ function renderAziendaliPage() {
   return `
   ${renderHeader('servizi')}
 
-  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/eventi-aziendali.png'); min-height: 65vh;">
+  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/eventi-aziendali.png');">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <div class="urgency-badge">
@@ -622,7 +683,7 @@ function renderCompleanniPage() {
   return `
   ${renderHeader('servizi')}
 
-  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/18-esimo.png'); min-height: 65vh;">
+  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/18-esimo.png');">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <div class="urgency-badge">
@@ -651,7 +712,7 @@ function renderCompleanniPage() {
             Il Tuo 18° Sarà l'Evento di Cui Parleranno Tutti.
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px;">
-            Dimentica le solite sale anonime. Realizziamo installazioni scenografiche a tema luxury: archi a doppia curvatura, sequenze di sfere calibrate al millimetro, insegne al neon personalizzate e angoli drink da vip lounge.
+            Dimentica le solite sale anonime. Realizziamo installazioni scenografiche ad alto impatto: archi a doppia curvatura, sequenze di sfere calibrate al millimetro, insegne al neon personalizzate e angoli cocktail dal design sofisticato.
           </p>
         </div>
         <div>
@@ -670,7 +731,7 @@ function renderCerimoniePage() {
   return `
   ${renderHeader('servizi')}
 
-  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/battesimi-comunioni-cresime.png'); min-height: 65vh;">
+  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/battesimi-comunioni-cresime.png');">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <div class="urgency-badge">
@@ -717,7 +778,7 @@ function renderGenderRevealPage() {
   return `
   ${renderHeader('servizi')}
 
-  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/gender-reveal.png'); min-height: 65vh;">
+  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/gender-reveal.png');">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <div class="urgency-badge">
@@ -764,7 +825,7 @@ function renderPortfolioPage() {
   return `
   ${renderHeader('portfolio')}
 
-  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/bg-encanto-design.png'); min-height: 55vh;">
+  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-10.jpeg');">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <h1 class="hero-title">
@@ -803,7 +864,7 @@ function renderCasiStudioPage() {
   return `
   ${renderHeader('casi-studio')}
 
-  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/bg-encanto.png'); min-height: 55vh;">
+  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-1.jpg');">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <h1 class="hero-title">
@@ -848,7 +909,7 @@ function renderChiSiamoPage() {
   return `
   ${renderHeader('chi-siamo')}
 
-  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/bg-encanto.png'); min-height: 55vh;">
+  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-12.jpeg');">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <h1 class="hero-title">
@@ -897,7 +958,7 @@ function renderContattiPage() {
   return `
   ${renderHeader('contatti')}
 
-  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/bg-encanto.png'); min-height: 55vh;">
+  <section class="hero-section" style="background-image: url('/wp-content/uploads/2025/05/encanto-design-allestimenti-ed-eventi-a-reggio-emilia-15.jpeg');">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <div class="urgency-badge">
@@ -918,7 +979,7 @@ function renderContattiPage() {
       <div class="contact-grid">
         <div>
           <h2 style="font-size: 2.2rem; margin-bottom: 20px;">
-            Canale Diretto VIP
+            Canale Diretto Riservato
           </h2>
           <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 30px;">
             Per progetti con data già fissata, puoi richiedere un riscontro immediato della disponibilità sul nostro canale WhatsApp esclusivo.
@@ -934,17 +995,7 @@ function renderContattiPage() {
             </p>
           </div>
 
-          <div class="luxury-card" style="padding: 30px;">
-            <p style="font-family: var(--font-title); color: var(--gold-start); margin-bottom: 8px;">RICEVIMENTO & SEDE</p>
-            <p style="color: #FFF; font-size: 1rem; margin-bottom: 4px;">
-              Encanto Design &bull; Gruppo Kinderland S.r.l.
-            </p>
-            <p style="color: var(--text-muted); font-size: 0.9rem;">
-              Reggio Emilia (RE) &bull; Emilia-Romagna, Italia<br />
-              Email: <a href="mailto:info@encantodesign.it" style="color: var(--gold-start);">info@encantodesign.it</a><br />
-              P.IVA: 02962280356
-            </p>
-          </div>
+
         </div>
 
         <div class="luxury-card" style="padding: 40px;">
@@ -1054,7 +1105,7 @@ window.handleFormSubmit = function(e) {
     form.reset();
 
     const waMsg = encodeURI(`Salve Encanto Design, ho appena candidato il mio evento: Nome: ${name}, WhatsApp: ${phone}, Dettagli: ${eventDetails}. Note: ${notes}`);
-    const shouldOpenWA = confirm('Candidatura registrata! Vuoi anche aprire direttamente WhatsApp VIP (+39 391 712 5593) per dare massima priorità alla verifica data?');
+    const shouldOpenWA = confirm('Candidatura registrata! Vuoi aprire direttamente il canale WhatsApp (+39 391 712 5593) per verificare subito la disponibilità della tua data?');
     if (shouldOpenWA) {
       window.open(`https://wa.me/393917125593?text=${waMsg}`, '_blank');
     }
@@ -1086,7 +1137,7 @@ document.addEventListener('DOMContentLoaded', () => {
       htmlContent = renderGenderRevealPage();
       break;
     case 'servizi':
-      htmlContent = renderHomePage();
+      htmlContent = renderServiziPage();
       break;
     case 'portfolio':
       htmlContent = renderPortfolioPage();

@@ -1,0 +1,21 @@
+# Encanto Design Robots.txt
+User-agent: *
+Allow: /
+
+# AI Crawlers Allowlist
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://encantodesign.it/sitemap.xml
